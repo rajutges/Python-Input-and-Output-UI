@@ -1,0 +1,25 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'assignmentapp/style.css' %}" />
+<div class="output-container">
+    <div class="input-container">
+<h1>Output</h1>
+<br>
+<ul>
+    {% for i in all_items %} 
+    <li class="output"> 
+        <p>
+        <strong> Text data: </strong>&nbsp;{{i.textdata}} &nbsp;&nbsp;&nbsp;
+        <strong>slider value:</strong> &nbsp;{{i.slider}}
+        </p>
+        <nobr></nobr>
+        <form action="/deletedata/{{i.id}}/" method = "POST">{% csrf_token %}
+            <button type="submit" value="Delete" class="deletebutton"> Delete</button>
+        </form>
+        
+    </li>
+
+
+    {% endfor %}
+</ul> 
+</div>
+</div>

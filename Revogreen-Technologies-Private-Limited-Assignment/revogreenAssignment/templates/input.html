@@ -1,0 +1,32 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'assignmentapp/style.css' %}" />
+<script src="{% static 'assignmentapp/style.js' %}"></script>
+
+
+<div class="container">
+<div class="input-container">
+  <h1>Input</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="textdata">Text Data</label><br>
+    <input type="text" name="textdata" class="textinput" id="textdata">
+    <br></br>
+    <label for="slider">Slider Value</label><br>
+    <input
+     type="range" min="0" max="100" value="1" name="slider" class="slider" id="myRange" >
+     <span id="slider-value"></span>
+    <br></br>
+    <button type="submit" class="addbutton" value="add data">Add Data</button>
+  </form>
+</div>
+</div>
+
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("slider-value");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
