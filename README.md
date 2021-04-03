@@ -16,7 +16,7 @@ Fetch the data from the database and display this data on a database.
 
 UI Project
 ==========
-Python Django UI + User Authentication System
+Python Django UI 
 
 INSTALLATION
 ============
