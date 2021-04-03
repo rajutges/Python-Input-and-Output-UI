@@ -14,26 +14,24 @@ This data should be stored in a database
 For the second screen (Output screen):
 Fetch the data from the database and display this data on a database.
 
-UI Project
-==========
-Python Django UI 
+### Git Clone
 
-INSTALLATION
-============
-- Clone repository via: 'git clone https://github.com/rajutges/Revogreen_Assignment'
+What things you need to install the software and how to install them
 
+```
+'git clone git clone https://github.com/rajutges/Revogreen_Assignment'
+```
 
-Django Installation
-=====================
-- pip install django
+### Installation
 
 
+```
+pip install django
+```
 
-Server Setup
-============
-- python manage.py runserver
+## Running the tests
+```
+python manage.py runserver
+```
 
-Default Server URL
-==================
-- http://127.0.0.1:8000/
-- http://127.0.0.1:8000/admin/
+
