@@ -15,7 +15,7 @@ For the second screen (Output screen):
 Fetch the data from the database and display this data on a database.
 
 ### Working
-![sample]
+![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/WORKING.gif)
 
 ### Git Clone
 
