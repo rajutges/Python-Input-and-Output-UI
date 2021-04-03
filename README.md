@@ -14,6 +14,9 @@ This data should be stored in a database
 For the second screen (Output screen):
 Fetch the data from the database and display this data on a database.
 
+### Working
+![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/sample.gif)
+
 ### Git Clone
 
 What things you need to install the software and how to install them
