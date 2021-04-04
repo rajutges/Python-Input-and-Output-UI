@@ -19,7 +19,6 @@ Fetch the data from the database and display this data on a database.
 
 ### Git Clone
 
-What things you need to install the software and how to install them
 
 ```
 git clone https://github.com/rajutges/Revogreen_Assignment
