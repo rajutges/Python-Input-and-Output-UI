@@ -52,7 +52,7 @@ output link:
 ```
 http://127.0.0.1:8000/output/
 ```
-Sample Input UI
+Sample Output UI
 ![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/Output%20sample.png)
 
 
