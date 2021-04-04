@@ -50,7 +50,7 @@ Sample Input UI
 ## Output UI
 output link:
 ```
-http://127.0.0.1:8000/input/
+http://127.0.0.1:8000/output/
 ```
 Sample Input UI
 ![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/Output%20sample.png)
