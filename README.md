@@ -22,7 +22,7 @@ Fetch the data from the database and display this data on a database.
 What things you need to install the software and how to install them
 
 ```
-'git clone git clone https://github.com/rajutges/Revogreen_Assignment'
+git clone git clone https://github.com/rajutges/Revogreen_Assignment
 ```
 
 ### Installation
@@ -36,5 +36,25 @@ pip install django
 ```
 python manage.py runserver
 ```
+
+## Default Server URL
+
+## Input UI
+input link:
+```
+http://127.0.0.1:8000/input/
+```
+Sample Input UI
+![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/sample%20input.png)
+
+## Output UI
+output link:
+```
+http://127.0.0.1:8000/input/
+```
+Sample Input UI
+![sample](https://github.com/rajutges/Revogreen_Assignment/blob/main/Output%20sample.png)
+
+
 
 
