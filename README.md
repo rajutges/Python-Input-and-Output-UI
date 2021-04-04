@@ -22,7 +22,7 @@ Fetch the data from the database and display this data on a database.
 What things you need to install the software and how to install them
 
 ```
-git clone git clone https://github.com/rajutges/Revogreen_Assignment
+git clone https://github.com/rajutges/Revogreen_Assignment
 ```
 
 ### Installation
